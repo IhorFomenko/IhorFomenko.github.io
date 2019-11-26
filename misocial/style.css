@@ -355,14 +355,14 @@ html{
 	.main-text span{
 	display: inline-block; 
 	font-size: 3rem;
-}
-.main-text h1{
-	margin: 0.5rem;
-	font-size: 90px;
-}
-.main-text p{
-	font-size: 3rem;
-}
+	}
+	.main-text h1{
+		margin: 0.5rem;
+		font-size: 90px;
+	}
+	.main-text p{
+		font-size: 3rem;
+	}
 	.visible-lg{
 		display: none;
 	}
@@ -415,6 +415,9 @@ html{
 	}
 	.call-to-action span{
 		font-size: 2.5rem;
+	}
+	.menu-link{
+		font-size: 3rem;
 	}
 }
 .m-menu{

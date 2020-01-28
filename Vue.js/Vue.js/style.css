@@ -1,0 +1,204 @@
+/*specification*/
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background: #F8F7F7;
+	overflow-x: hidden;
+}
+ul, li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+h2{
+	font-size: 30px;
+	line-height: 43px;
+	color: #FFFFFF;
+}
+
+
+/*first screen*/
+
+header{
+	position: absolute;
+	height: 78px;
+	left: 0%;
+	right: 0%;
+	top: 0px;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+	margin-bottom: 15px;
+}
+.menu__item{
+	margin: 0 9px;
+	color: #6A6A6A;
+}
+.menu__item a{
+	color: #6A6A6A;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 13px;
+	letter-spacing: 0.08em;
+}
+.row{
+	margin-top: 25px;
+}
+.icons__item{
+	margin-right: 10px;
+	color: #ADAFAE;
+}
+.icons__item a{
+	color: #ADAFAE;
+}
+.form__btn{
+	width: 110px;
+	background: #C2ADCC;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 11px;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #FFFFFF;
+	border-radius: 3px;
+}
+
+/*second screen*/
+
+.top{
+	padding-top: 70px;
+}
+
+.title__text{
+	margin: 0 auto;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-align: center;
+	color: #000000;
+	padding-top: 6px;
+
+	border: 1px solid #000;
+	width: 337px;
+	height: 30px;
+}
+
+/*3 screen*/
+
+.feshion{
+	padding-left: 200px;
+}
+
+.offer{
+	position: absolute;
+	width: 510px;
+	height: 467px;
+	left: 65px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+	padding-left: 50px;
+	z-index: -1;
+}
+.istockphoto{
+	margin-top: 31px;
+}
+.offer__title{
+	position: absolute;
+	height: 11px;
+	top: 107px;
+	width: 
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 9px;
+	line-height: 11px;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: #000000;
+}
+.offer__intro{
+	position: absolute;
+	height: 144px;
+	top: 118px;
+	width: 354;
+	font-family: Brusher;
+	font-size: 52px;
+	line-height: 85.3%;
+	letter-spacing: 0.01em;
+	color: #C2ADCC;
+}
+.offer__text{
+	position: absolute;
+	height: 80px;
+	width: 298px;
+	top: 243px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 150%;
+	color: #000115;
+
+}/*4 screen*/
+
+.step{
+	width: 80%;
+	text-align: center;
+	padding-left: 250px;
+	padding-top: 50px;
+}
+.table{
+	padding-top: 80px;
+	display: block;
+}
+.block{
+	width: 264px;
+	height: 323px;
+}
+.block1{
+	position: absolute;
+	width: 264px;
+	height: 323px;
+	background-image: url(bgc1.png);
+}
+.block2{
+	position: absolute;
+	width: 264px;
+	height: 323px;
+	background-image: url(bgc2.png);
+}
+.block3{
+	position: absolute;
+	width: 264px;
+	height: 323px;
+	background-image: url(bgc3.png);
+}
+.block4{
+	position: absolute;
+	width: 264px;
+	height: 323px;
+	background-image: url(bgc4.png);
+}
+
+/*4 screen*/
+.title{
+	padding-top: 47px;
+	text-align: center;
+	padding-bottom: 70px;
+}
+.title__main{
+	height: 38px;
+	font-family: Brusher;
+	font-size: 42px;
+	line-height: 50px;
+	color: #000000;
+}

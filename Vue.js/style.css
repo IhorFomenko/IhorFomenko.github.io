@@ -1,0 +1,315 @@
+/*specification*/
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background: #F8F7F7;
+	overflow-x: hidden;
+}
+ul, li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h2{
+	font-size: 30px;
+	line-height: 43px;
+	color: #FFFFFF;
+}
+h5{
+	width: 230px;
+	padding-top: 50px;
+	height: 34px;
+	top: 1310px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 10px;
+	line-height: 15px;
+	text-align: center;
+	color: #000000;
+	margin: 0 auto;
+}
+
+
+/*first screen*/
+
+header{
+	position: absolute;
+	height: 78px;
+	left: 0%;
+	right: 0%;
+	top: 0px;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+	margin-bottom: 15px;
+}
+.menu__item{
+	margin: 0 9px;
+	color: #6A6A6A;
+}
+.menu__item a{
+	color: #6A6A6A;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 13px;
+	letter-spacing: 0.08em;
+}
+.row{
+	margin-top: 25px;
+}
+.icons__item{
+	margin-right: 10px;
+	color: #ADAFAE;
+}
+.icons__item a{
+	color: #ADAFAE;
+}
+.form__btn{
+	width: 110px;
+	background: #C2ADCC;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 11px;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #FFFFFF;
+	border-radius: 3px;
+}
+
+/*second screen*/
+
+.top{
+	padding-top: 70px;
+}
+
+.title__text{
+	margin: 0 auto;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-align: center;
+	color: #000000;
+	padding-top: 6px;
+
+	border: 1px solid #000;
+	width: 337px;
+	height: 30px;
+}
+
+/*3 screen*/
+
+.feshion{
+	
+}
+
+.offer{
+	position: absolute;
+	width: 510px;
+	height: 467px;
+	left: 65px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+	padding-left: 50px;
+	z-index: -1;
+}
+.istockphoto{
+	margin-top: 31px;
+}
+.offer__title{
+	position: absolute;
+	height: 11px;
+	top: 107px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 9px;
+	line-height: 11px;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: #000000;
+}
+.offer__intro{
+	position: absolute;
+	height: 170px;
+	top: 118px;
+	width: 354px;
+	font-size: 52px;
+	line-height: 85.3%;
+	letter-spacing: 0.01em;
+	color: #C2ADCC;
+	font-family: Brusher;
+	font-weight: 700;
+
+}
+.offer__text{
+	position: absolute;
+	height: 80px;
+	width: 310px;
+	top: 243px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 150%;
+	color: #000115;
+
+}/*4 screen*/
+
+.step{
+	padding-left: auto;
+	padding-top: 50px;
+}
+.table{
+	padding-top: 80px;
+	display: block;
+}
+.block{
+	width: 264px;
+	height: 323px;
+}
+.block1{
+	position: absolute;
+	width: 264px;
+	height: 323px;
+	background-image: url(bgc1.png);
+}
+.block2{
+	position: absolute;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+	width: 264px;
+	height: 323px;
+	background-image: url(bgc2.png);
+}
+.block3{
+	position: absolute;
+	width: 264px;
+	height: 323px;
+	background-image: url(bgc3.png);
+}
+.block4{
+	position: absolute;
+	width: 264px;
+	height: 323px;
+	background-image: url(bgc4.png);
+}
+
+/*4 screen*/
+.title{
+	padding-top: 47px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.title__main{
+	text-align: center;
+	height: 38px;
+	font-family: Brusher;
+	font-size: 42px;
+	line-height: 50px;
+	color: #000000;
+}
+
+/*5 screen*/
+
+.photo{
+	text-align: center;
+	width: 548px;
+	height: 330px;
+	background: #fff;
+	background: url(alexandra-gorn-260989-unsplash.png);
+	background-repeat: no-repeat;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+.photo1{
+	text-align: center;
+	width: 264.03px;
+	height: 330px;
+	background: url(jenn-lopez-657936-unsplash.png);
+	background-repeat: no-repeat;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+.photo2{
+	text-align: center;
+	width: 264.03px;
+	height: 330px;
+	background: url(jenn-lopez-657936-unsplash.png);
+	background-repeat: no-repeat;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+.photo3{
+	text-align: center;
+	width: 264.03px;
+	height: 330px;
+	background: url(jenn-lopez-657936-unsplash.png);
+	background-repeat: no-repeat;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+.text__main{
+	height: 41px;
+	padding-top: 178px;
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #000000;
+}
+.text__main1{
+	height: 41px;
+	padding-top: 200px;
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #000000;
+}
+.square{
+	position: absolute;
+	margin-top: 75px;
+	width: 84px;
+	height: 74px;
+	margin-left: 90px;
+	background: #FFFFFF;
+	border-radius: 1px;
+}
+.text__main2{
+	text-align: center;
+	padding-top: 65px;
+	height: 11px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	line-height: 11px;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+/*6 screen*/
+
+.title__main1{
+	height: 12px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: center;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: #000000;
+}

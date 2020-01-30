@@ -495,4 +495,11 @@ h6{
 		width: auto;
 	}
 }
+@media screen and (max-width: 576px){
+	.header{
+		height: 127px;
+	}
+	.top{
+		padding-top: 116px;
+	}
 	

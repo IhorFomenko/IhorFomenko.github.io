@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>GetTicket</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-3">
+					<h1 class="offer__title">
+						GetTicket
+					</h1>
+				</div>
+				<div class="head ml-auto">
+					<div class="col-lg-3 d-flex">
+						<a href="D:\HTML\Artboard\index.html">
+							<i class="fa fa-home fa-2x" style="color: #fff;"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-user-circle fa-2x" style="color: #fff;"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-heart fa-2x" style="color: #fff;"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<section class="about" id="about">
+		<div class="container">
+			<div class="row" style="padding-left: 70px">
+				<div class="col-lg-4">
+					<div class="photo">
+						<img src="event-photo.png" alt="">
+						<button type="map" class="form__btn1" style="margin-top: 30px">180 UAH</button>
+					</div>	
+				</div>
+				<div class="about__info col-lg-8">
+							<p>X-PARTY
+		          			<a href=""><i class="fa fa-heart" style="color: #fff; margin-left: 327px"></i></a></p>
+		          			<h4>
+		          				Британський рок-гурт заснований у Шеффілді, графство Йоркшир. А їхня музика з 2004 року, пройшовши дезкор, а згодом металкор і пост-рок, набула свого унікального звучання. В липні та листопаді 2019 року невгамовні брити випустили сингли, які звучали як освідчення в коханні старим добрим дезкор-традиціям.
+		          			</h4>
+		          			<div class="date">		 
+								<div><i class="fa fa-calendar fa-2x" style="color: #95427F"></i>
+				          			<a style="color: #fff">23 лист, Пн</a></div>
+								<div><i class="fa fa-clock fa-2x"></i>
+				          			<a style="color: #fff">22:00</a></div>
+								<div style="width: 600px"><i class="fa fa-map fa-2x" style="color: #95427F"></i>
+				          			<a style="color: #fff;">FestRepublic, вул. Старознесенська 24-26</a>
+									
+										<button type="map" class="form__btn" href="#box" onclick="openbox('box'); return false" >На карті</button>
+										<div id="box" style="display: none;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.503156147387!2d24.049559315541117!3d49.85179243819992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add18215f0343%3A0x4d37bc8b5f85294f!2s*21FESTrepublic!5e0!3m2!1sru!2sua!4v1581507953063!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+
+										<script>
+											function openbox(box){
+												display = document.getElementById('box').style.display;
+												if(display == "none"){
+													document.getElementById('box').style.display = "block";
+												} else{
+													document.getElementById('box').style.display = "none";
+												}
+											}
+										</script>
+
+				          		</div>
+		          			</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="buy" id="buy">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<button type="map" class="form__btn2">Купити</button>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

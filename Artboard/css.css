@@ -1,0 +1,144 @@
+body{
+	margin: 0;
+	background: url(Artboard-bg.png);
+	background-repeat: no-repeat;
+}
+@font-face{
+	font-family: Okta-Neue-UltraLight;
+	src: url(Okta-Neue-UltraLight.ttf);
+}
+header{
+	margin-top: 44px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.offer__title{
+	text-align: center;
+	font-family: Okta-Neue-UltraLight 30px/49px;
+	letter-spacing: 0;
+	color: #E9EAEA;
+	opacity: 1;
+	font-size: 45px;
+	font-weight: 800;
+}
+.head a{
+	margin-right: 50px;
+}
+.about{
+	margin-top: 100px;
+	
+}
+.about img{
+	height: 450px;
+	width: 270px;
+}
+.about__info{
+	text-align: left;
+	padding-top: 100px;
+}
+.about__info p{
+	width: 600px;
+	height: 75px;
+	text-align: left;
+	font-family: Okta-Neue-UltraLight;
+	letter-spacing: 0;
+	font-size: 45px;
+	color: #E9EAEA;
+	opacity: 1;
+}
+.about__info h4{
+	width: 600px;
+	height: 130px;
+	text-align: left;
+	font-family: Okta-Neue-UltraLight;
+	letter-spacing: 0;
+	font-size: 17px;
+	color: #E9EAEA;
+	opacity: .9;
+}
+.date{
+	width: 350px;
+	line-height: 40px;
+}
+.date a{
+	font-family: Okta-Neue-UltraLight;
+	font-size: 15px;
+	letter-spacing: 0.1px;
+	color: #FAFAFA;
+	opacity: .8;
+}
+.form__btn{
+	text-align: center;
+	font-weight: 700;
+	background: #95427F 0% 0% no-repeat padding-box;
+	border-radius: 30px;
+	width: 135px;
+	height: 45px;
+	color: #fff;
+	margin-left:100px;
+	cursor: pointer;
+	outline: none;
+	font-family: Okta-Neue-UltraLight;
+	letter-spacing: 0px;
+	opacity: .8;
+	border: 1px solid #95427F
+
+}
+.form__btn:hover{
+	background-color: #fff;
+	opacity: .7;
+	color: #94427F;
+}
+.form__btn1	{
+	font-size: 16px;
+	font-weight: 700;
+	background: transparent;
+	width: 270px;
+	height: 41px;
+	color: #fff;
+	margin-right: 36px;
+	cursor: pointer;
+	outline: none;
+	font-family: Okta-Neue-UltraLight;
+	letter-spacing: 0px;
+	opacity: .8;
+	border: 2px solid #94427F
+}
+.form__btn1:hover{
+	background-color: #fff;
+	opacity: .7;
+	color: #94427F;
+}
+#box{
+	margin-top: 30px;
+	width: 589px;
+	height: 379px;
+	
+}
+.buy{
+	margin-top: 130px;
+	text-align: center;
+}
+.form__btn2	{
+	font-size: 16px;
+	font-weight: 700;
+	background: transparent;
+	border-radius: 25px;
+	width: 190px;
+	height: 50px;
+	color: #fff;
+	margin-right: 36px;
+	cursor: pointer;
+	outline: none;
+	font-family: Okta-Neue-UltraLight;
+	letter-spacing: 0px;
+	opacity: .8;
+	background: #95427F 0% 0% no-repeat padding-box;
+	border: 1px solid #95427F;
+	opacity: 1;
+}
+.form__btn2:hover{
+	background-color: #fff;
+	opacity: .7;
+	color: #94427F;
+}

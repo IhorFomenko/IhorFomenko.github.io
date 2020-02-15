@@ -26,15 +26,16 @@ ul, li{
 	margin: 0 auto;
 }
 .brd{
-	margin-top: 20px;
-	width: 60px;
-	height: 45px;
-	border: 1px solid grey;
-	text-align: center;
-	padding-top: 3%;
-	margin-right: 5px;
-	opacity: .7
+    margin-top: 20px;
+    width: 60px;
+    height: 45px;
+    border: 1px solid grey;
+    text-align: center;
+    padding-top: 3%;
+    margin-right: 5px;
+    opacity: .7
 }
+
 
 .top{
 	margin-top: 15px;
@@ -83,9 +84,7 @@ ul, li{
 .menu1 a:hover{
 	color: #9b0000;
 }
-.menu a:hover{
-	color: #9b0000;
-}
+
 
 /*slider*/
 
@@ -337,7 +336,7 @@ hr{
     /*footer*/
 
     .footer{
-		height: 300px;
+		height: auto;
 		margin-top: 10px;
 		width: 100%;
 		border-top: 5px solid #9b0000;
@@ -386,6 +385,9 @@ hr{
     	.footer{
     		margin-top: 60px;
     	}
+        .brd{
+            padding-top: 1%;
+        }
     }
       @media screen and (max-width: 768px) {
     	.text1{
@@ -408,6 +410,28 @@ hr{
     	.footer{
     		margin-top: 60px;
     	}
+        .brd{
+            padding-top: 1%;
+        }
+        .menu a{
+            font-size: 15px;
+            padding-right: 0;
+            color: #000;
+            opacity: .7;
+            text-decoration: none;
+            font-weight: 400;
+
+        }
+        .menu{
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+        }
+        .menu a:hover{
+            color: #9b0000;
+        }
+        
     }
       @media screen and (max-width: 576px) {
     	.text1{
@@ -428,7 +452,7 @@ hr{
     		widows: 300px;
     	}
     	nav{
-    		display: none;
+    		display: block;
     	}
     	.top i{
     		display: none;
@@ -445,6 +469,24 @@ hr{
     	.title__intro {
     		font-size: 40px;
     	}
+        .menu a{
+            font-size: 15px;
+            padding-right: 0;
+            color: #000;
+            opacity: .7;
+            text-decoration: none;
+            font-weight: 600;
+
+        }
+        .menu{
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+        }
+        .menu a:hover{
+             color: #9b0000;
+        }
     	
     }
     @media screen and (max-width: 576px) {
@@ -454,8 +496,35 @@ hr{
     	.title__info{
     		font-size: 10px;
     	}
+        .photo img{
+            width: 360px;
+        }
+        .news text1{
+            padding: 0px 15px 0px 100px;
+        }
+        .text1{
+            padding: 0px 15px 0px 100px;
+        }
+        .menu a{
+            font-size: 15px;
+            padding-right: 0;
+            color: #000;
+            opacity: .7;
+            text-decoration: none;
+            font-weight: 600;
+
+        }
+        .menu{
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+        }
+        .menu a:hover{
+            color: #9b0000;
+        }
     }
-    @media screen and (max-width: 386px) {
+    @media (max-width: 386px) {
     	.photo img{
     		width: 340px;
     	}
@@ -469,6 +538,27 @@ hr{
     		margin-top: 100px;
     		
     	}
+    	.title__intro{
+    		width: auto;
+    	}
+        .menu a{
+            font-size: 15px;
+            padding-right: 0;
+            color: #000;
+            opacity: .7;
+            text-decoration: none;
+            font-weight: 600;
+
+        }
+        .menu{
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+        }
+        .menu a:hover{
+            color: #9b0000;
+        }
     }
 
 

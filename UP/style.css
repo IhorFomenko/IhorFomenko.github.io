@@ -383,6 +383,92 @@ hr{
     	.video text1{
     		widows: 300px;
     	}
+    	.footer{
+    		margin-top: 60px;
+    	}
+    }
+      @media screen and (max-width: 768px) {
+    	.text1{
+    		padding-left: 20%;
+    	}
+    	.photo{
+    		text-align: center;
+    		margin-top: 30px;
+    	}
+    	.photo text1{
+    		padding-left: 0px;
+    	}
+    	.video{
+    		margin-top: 40px;
+    		padding-left: 20%;
+    	}
+    	.video text1{
+    		widows: 300px;
+    	}
+    	.footer{
+    		margin-top: 60px;
+    	}
+    }
+      @media screen and (max-width: 576px) {
+    	.text1{
+    		padding-left: 20%;
+    	}
+    	.photo{
+    		text-align: center;
+    		margin-top: 30px;
+    	}
+    	.photo .text1{
+    		padding-left: 0px;
+    	}
+    	.video{
+    		margin-top: 40px;
+    		padding-left: 20%;
+    	}
+    	.video .text1{
+    		widows: 300px;
+    	}
+    	nav{
+    		display: none;
+    	}
+    	.top i{
+    		display: none;
+    	}
+    	.top .brd1{
+    		display: none;
+    	}
+    	.top7 {
+    		display: none;
+    	}
+    	.footer{
+    		margin-top: 60px;
+    	}
+    	.title__intro {
+    		font-size: 40px;
+    	}
+    	
+    }
+    @media screen and (max-width: 576px) {
+    	.title__intro{
+    		font-size: 30px;
+    	}
+    	.title__info{
+    		font-size: 10px;
+    	}
+    }
+    @media screen and (max-width: 360px) {
+    	.photo img{
+    		width: 340px;
+    	}
+    	.text1{
+    		padding-left: 15px;
+    	}
+    	.video{
+    		padding-left: 15px;
+    	}
+    	.footer{
+    		margin-top: 100px;
+    		
+    	}
     }
 
 

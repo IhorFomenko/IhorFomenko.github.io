@@ -414,6 +414,7 @@ hr{
             padding-top: 1%;
         }
         .menu a{
+            display: none;
             font-size: 15px;
             padding-right: 0;
             color: #000;
@@ -430,6 +431,15 @@ hr{
         }
         .menu a:hover{
             color: #9b0000;
+        }
+        .menu.active a{
+            display: block;
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            z-index: -1;
+            
         }
         
     }

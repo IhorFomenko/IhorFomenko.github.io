@@ -245,7 +245,7 @@ header{
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
-	transition: 0.7s ease;
+	transition: 0.3s ease;
 	flex-direction: column;
 }
 .post p{
@@ -293,5 +293,22 @@ header{
 	opacity: .7;
 	color: #94427F;
 }
+
+
+@media screen and (max-width: 992px) {
+	.intro{
+		padding-left: 25%;
+		text-align: center;
+	}
+	.post{
+		height: 380px;
+	}
+}
+@media screen and (max-width: 700px) {
+	
+	
+}
+	
+
 
 

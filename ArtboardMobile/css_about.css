@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	background-color: #001D32;
-	height: 1036px;
+	height: 940px;
 }
 @font-face{
 	font-family: Okta-Neue-UltraLight;
@@ -26,7 +26,6 @@ header a{
 	width: 375px;
 	height: 329px;
 	z-index: 99;
-	
 }
 .event__info{
 	padding-right: 45px;
@@ -85,6 +84,16 @@ header a{
 	margin-left: 15px;
 
 }
+.map__link{
+	text-align: center;
+	text-decoration: underline;
+	font-family: Okta-Neue-UltraLight;
+	font-size: 15px;
+	letter-spacing: 0.07px;
+	color: #FAFAFA;
+	opacity: 1;
+	margin-left: 40%;
+}
 .form__btn{
 	text-align: center;
 	font-weight: 700;
@@ -110,4 +119,15 @@ header a{
 }
 #box{
 	margin: 30px auto;
+}
+h5{
+	margin-top: 15px;
+	width: 280px;
+	height: 22px;
+	text-align: center;
+	font-family: Okta-Neue-UltraLight;
+	font-size: 13px;
+	letter-spacing: 0;
+	color: #EAEAEA;
+	opacity: 1;
 }

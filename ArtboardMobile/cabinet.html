@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>GetTicket</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-6 d-flex ml-auto">
+					<a href="index.html">
+						<i class="fa fa-home fa-2x" style="color: #fff;"></i></a>
+					<a href="#">
+						<i class="fa fa-user-circle fa-2x" style="color: #fff;"></i></a>
+					<a href="#box" onclick="openbox('box');return false">
+						<i class="fa fa-heart fa-2x" style="color: #fff; font-size: 25px"></i></a>	
+										<div id="box" style="display: none;">
+											
+										</div>					
+				</div>				
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="container">
+			<div class="row ava__info" style="justify-content: center">
+				<div class="col-5 ava">
+					<p>NS</p>
+				</div>
+				<div class="col-lg-5">
+					<h2>Name</h2>					
+				</div>
+				<div class="col-lg-5">
+					<h2>Surname</h2>					
+				</div>
+				<div class="col-lg-4">
+					<h3>Редагувати</h3>
+				</div>
+			</div>
+			<div class="row" style="margin-top: 10px">
+				<div class="col-lg-12" style="text-align: center;">
+					<button type="entrance" class="form__btn">Вихід</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="ticket" id="ticket" style="height: 725px">
+		<div class="container" style="margin-top: 70px">
+			<div class="row">
+				<div class="col-12">
+					<p>Мої квитки</p>
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-4">
+					<img src="1/photo_2018-11-02_11-43-55@2x.png" alt="" width="111" height="139">	
+				</div>
+				<div class="col-8 tic">
+							<h1>X-PARTY</h1>
+							<p>Субота, 20 листопада 2020<br>22:00</p>
+						</div>
+						<div style="padding-top: 10%; margin-left: 50px">
+							<button type="entrance" class="form__btn1">
+							<a href="ticket.html" style="text-decoration: none; margin-left: 0px">Переглянути QR</a></button>
+				</div>
+			</div>
+			<hr>
+		</div>
+		<div class="container" style="margin-top: 40px">
+			<div class="row">
+				<div class="col-4">
+					<img src="2/photo_2019-11-12_16-10-56@2x.png" alt="" width="111px" height="139">	
+				</div>
+				<div class="col-8 tic">
+							<h1 style="font-size: 25px">Вечір гри у мафію</h1>
+							<p>Четвер, 14 листопада 2020<br>17:00</p>
+
+				</div>
+				<div style="padding-top: 10%; margin-left: 50px">
+					<button type="entrance" class="form__btn1">Переглянути QR</button>
+				</div>
+			</div>
+			<hr>
+		</div>
+
+	</section>
+
+	<script>
+		function openbox(box){
+			display = document.getElementById('box').style.display;
+			if(display == "none"){
+				document.getElementById('box').style.display = "block";
+			} else{
+				document.getElementById('box').style.display = "none";
+			}
+		}
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+	background: url(iPhone-other.png);
+	background-repeat: no-repeat;
+	background-size: 100vw 970px;
+	background-color: #001D32;
+}
+@font-face{
+	font-family: Okta-Neue-UltraLight;
+	src: url(Okta-Neue-UltraLight.ttf);
+}
+header{
+	padding-left: 46px;
+	padding-right: 46px;
+	background-color: #001D32;
+	opacity: .5;
+}
+header a{
+	margin-top: 5px;
+	margin-left: 25px;
+}
+
+.ava{
+	margin-top: 50px;
+	width: 149px;
+	height: 149px;
+	border-radius: 50%;
+	background: transparent;
+	opacity: 1;
+	background-color: #C7C7C78F;
+}
+.ava p{
+	text-align: center;
+	font-family: Okta-Neue-UltraLight;
+	letter-spacing: 0;
+	color: #F8F7F7;
+	opacity: .8;
+	margin-top: 20%;
+	font-size: 65px;
+}
+.ava__info h2{
+	width: 166px;
+	height: 21px;
+	text-align: left;
+	font-family: Okta-Neue-UltraLight;
+	font-size: 13px;
+	letter-spacing: 0.08px;
+	color: #FAFAFA;
+	opacity: .6;
+	border-bottom: 1px solid #fff;
+	margin: 15px auto;
+}
+.ava__info h3{
+	margin: 15px auto;
+	width: 125px;
+	height: 35px;
+	text-align: center;
+	font-family: Okta-Neue-UltraLight;
+	font-size: 15px;
+	letter-spacing: 0;
+	color: #F8F7F7;
+	opacity: 1;
+}
+.form__btn{
+	font-size: 14px;
+	font-weight: 400;
+	background: transparent;
+	border-radius: 25px;
+	width: 113px;
+	height: 30px;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	font-family: Okta-Neue-UltraLight;
+	letter-spacing: 0px;
+	opacity: .6;
+	border: 2px solid #fff
+}
+.form__btn:hover{
+	background-color: #fff;
+	opacity: .7;
+	color: #94427F;
+	font-weight: 600;
+}
+
+hr {
+    border: none;
+    background-color: #FAFAFA; 
+    color: #FAFAFA; 
+    height: 1px; 
+    opacity: .5;
+   }
+.ticket p{	
+	font-family: Okta-Neue-UltraLight;
+	letter-spacing: 0;
+	color: #F8F7F7;
+	opacity: 1;
+	font-size: 15px;
+}
+.ticket h1 {
+	width: auto;
+	height: 28px;
+	text-align: left;
+	font-family: Okta-Neue-UltraLight;
+	font-size: 23px;
+	letter-spacing: 0;
+	color: #EAEAEA;
+	opacity: 1;
+}
+.form__btn1{
+	font-size: 16px;
+	font-weight: 600;
+	background: transparent;
+	border-radius: 25px;
+	width: 155px;
+	height: 40px;
+	color: #fff;
+	margin-left: 40%;
+	cursor: pointer;
+	outline: none;
+	font-family: Okta-Neue-UltraLight;
+	letter-spacing: 0px;
+	opacity: .6;
+	border: 1px solid #fff
+}
+.form__btn1:hover{
+	background-color: #fff;
+	opacity: .7;
+	color: #94427F;
+
+}
+#box{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	margin-top: 37px;
+	margin-left: -203px;
+	background: #001D32EB 0% 0% no-repeat padding-box;
+	opacity: 1;
+}

@@ -192,7 +192,7 @@ header{
 	font-size: 13px;
 }
 .slide__item p{
-	width: 315px;
+	width: auto;
 	height: 40px;
 	text-align: center;
 	font-size: 28px;
@@ -200,7 +200,6 @@ header{
 	letter-spacing: 0;
 	color: #E9EAEA;
 	opacity: .7;
-	padding-left: 80px;
 }
 .slider__item a{
 	margin-left: 50px;

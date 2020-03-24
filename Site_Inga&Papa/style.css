@@ -237,7 +237,7 @@ body{
 /*step8*/
 
 .footer{
-	height: 65vh;
+	height: 70vh;
 	background-color: #f5f3f0;
 	padding-top: 80px;
 }
@@ -261,7 +261,7 @@ body{
 	background: #fff;
 }
 hr{
-	margin-top: 70px;
+	margin-top: 80px;
 	height: 0.5px;
 	background-color: #000;
 }
@@ -272,5 +272,8 @@ hr{
 .footer2{
 	height: 15vh;
 	background-color: #000;
+}
+.footer2 p{
+	color: #fff;
 }
 

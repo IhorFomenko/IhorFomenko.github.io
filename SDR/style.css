@@ -13,12 +13,18 @@ body{
 	height: 1000px;
 	background-color: pink;
 }
-.bang p{
+.pink p{
 	font-size: 200px;
 	font-weight: 700;
 	text-align: center;
-	margin-top: 0px;
+	margin-bottom: 0px;
+	opacity: .6;
+	z-index: -9999;
 }
 .pink{
-	padding-top: 350px;
+	padding-top: 50px;
+}
+.pink h3{
+	font-size: 30px;
+	text-align: center;
 }

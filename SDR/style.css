@@ -1,4 +1,24 @@
+html{
+	padding-left: 0;
+
+}
 body{
-	width: 375px;
+	width: 100%;
 	background-color: #fff;
+	overflow-x: hidden;
+	font-family: 'Pacifico', cursive;
+}
+.bang{
+	width: 100%;
+	height: 1000px;
+	background-color: pink;
+}
+.bang p{
+	font-size: 200px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 0px;
+}
+.pink{
+	padding-top: 350px;
 }

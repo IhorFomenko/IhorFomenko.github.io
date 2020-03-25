@@ -1,6 +1,6 @@
 html{
 	padding-left: 0;
-
+	margin: 0;
 }
 body{
 	width: 100%;
@@ -14,15 +14,30 @@ body{
 	background-color: pink;
 }
 .pink p{
+	text-align: center;
+}
+.pink h2{
+	text-align: center;
+	font-size: 50px;
+}
+.pink a{
 	font-size: 200px;
 	font-weight: 700;
 	text-align: center;
 	margin-bottom: 0px;
 	opacity: .6;
 	z-index: -9999;
+	text-decoration: none;
+	color: #000;
 }
+.pink a:hover{
+	color: #000;
+	opacity: .6;
+	text-decoration: none;
+}
+
 .pink{
-	padding-top: 50px;
+	padding-top: 100px;
 }
 .pink h3{
 	font-size: 30px;

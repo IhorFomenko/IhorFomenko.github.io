@@ -1,7 +1,13 @@
 body{
 	margin: 0;
 	font-family: 'Lora', serif;
+	background-color: #f5f3f0;
 }
+.colortext{
+	color: #ffb300;
+	text-decoration: underline;
+}
+
 /*step 1*/
 
 .header{
@@ -51,61 +57,27 @@ body{
 	text-decoration: underline;
 }
 
+
 /*step2*/
 
 .first{
-	background-image: url(images/bcimage.jpeg);
-	height: 90vh;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	padding-top: 25%;
+	background-color: #f5f3f0;
+	height: 100vh; 
 }
-
-.first_bg{
-	
-}
-.first_bg h1{
-	width: 600px;
-	font-size: 30px;
-	margin: 0 auto;
-	text-align: center;
-	color: #fff;
-	font-weight: 700;
-}
-.brd{
-	width: 700px;
-	border: 2px solid #bdbdbd;
-	border-radius: 25px;
-	background-color: #bdbdbd;
-	opacity: .8;
-}
-
-/*step3*/
-
-.class{
-	width: 100%;
-	height: 400px;
-	background-color: #fafafa;
-}
-.class p{
+.first p{
 	width: 950px;
 	height: auto;
-	font-size: 60px;
-	text-align: left; 
+	font-size: 78px;
+	text-align: center; 
 }
-.class h3{
+.first h3{
+	margin-top: 50px;
 	width: 950px;
+	margin-bottom: 50px;
 }
 
-.colortext{
-	color: #ffb300;
-	text-decoration: underline;
-}
-.class a:hover{
-	color: #ffb300;
-}
 
-/*step4*/
+/*step3*/
 
 .second{
 	background-image: url(images/bcimage.jpeg);
@@ -115,142 +87,30 @@ body{
 	padding-top: 25%;
 }
 
-/*step5*/
+/*step4*/
 
 .third{
 	background-color: #f5f3f0;
-	height: 145vh; 
+	height: 185vh; 
 }
 .third p{
+	word-spacing: 20px;
 	width: 950px;
-	height: 200px;
+	height: 60px;
 	font-size: 60px;
 	text-align: left; 
+	margin-bottom: 100px;
 }
 .third h3{
-	margin-top: 100px;
+	margin-top: 30px;
 	width: 950px;
 }
 .third a:hover{
 	color: #ffb300;
 }
-.img1{
-	width: 300px;
-	height: 450px;	
-}
-.img1:hover{
-	-webkit-transform: scale(1.15);
-	-ms-transform: scale(1.15);
-	transform: scale(1.15);
-}
-.img1 p{
-	font-size: 20px;
-	width: 300px;
-	height: 90px;
-	margin-top: 25px;
-}
-.img1 h5{
-	opacity: .6;
-	font-size: 16px;
-	font-weight: 500;
-	width: 300px;
-}
-
-/*step6*/
-
-.fourth{
-	height: 75vh;
-	background-color: #f5f3f0;
-	padding-top: 80px;
-}
-.fourth a{
-	font-size: 18px;
-}
-.fourth a:hover{
-	color: #ffb300;
-}
-.fourth h2{
-	margin-top: 50px;
-	font-size: 56px;
-	width: 960px;
-	height: 170px;
-	text-align: left;
-}
-.fourth h4{
-	margin-top: 40px;
-	font-size: 23px;
-	width: 850px;
-	text-align: left;
-}
-.fourth h5{
-	margin-top: 50px;
-	font-size: 18px;
-	width: 900px;
-	text-align: left;
-}
-
-/*step6*/
 
 
-.fiveth{
-	height: 60vh;
-	background-color: #f5f3f0;
-	padding-top: 80px;
-}
-.fiveth a:hover{
-	color: #ffb300;
-}
-.fiveth h2{
-	margin-top: 40px;
-	width: 450px;
-	font-size: 64px;
-	font-weight: 600;	
-}
-.fiveth h4{
-	margin-top: 40px;
-	font-size: 21px;
-	width: 900px;
-	font-weight: 500;
-}
-.fiveth h5{
-	margin-top: 40px;
-	font-size: 21px;
-	width: 400px;
-	font-weight: 500;
-}
-
-/*step7*/
-
-
-.sixth{
-	height: 60vh;
-	background-color: #f5f3f0;
-	padding-top: 80px;
-}
-.sixth a:hover{
-	color: #ffb300;
-}
-.sixth h2{
-	margin-top: 30px;
-	width: 450px;
-	font-size: 64px;
-	font-weight: 400;	
-}
-.sixth h4{
-	margin-top: 40px;
-	font-size: 20px;
-	width: 900px;
-	font-weight: 600;
-}
-.sixth h5{
-	margin-top: 40px;
-	font-size: 20px;
-	width: 900px;
-	font-weight: 600;
-}
-
-
-/*step8*/
+/*step5*/
 
 .footer{
 	height: 90vh;
@@ -284,7 +144,7 @@ body{
 }
 
 
-/*step9*/
+/*step6*/
 
 .footer2{
 	height: 15vh;
@@ -293,7 +153,6 @@ body{
 .footer2 p{
 	color: #fff;
 }
-
 
 /*button*/
 

@@ -1,6 +1,11 @@
 body{
 	margin: 0;
 	font-family: 'Lora', serif;
+	background-color: #f5f3f0;
+}
+.colortext{
+	color: #ffb300;
+	text-decoration: underline;
 }
 /*step 1*/
 
@@ -50,88 +55,24 @@ body{
 	font-weight: 400;
 	text-decoration: underline;
 }
-
 /*step2*/
 
 .first{
-	background-image: url(images/bcimage.jpeg);
-	height: 90vh;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	padding-top: 25%;
+	background-color: #f5f3f0;
+	height: 135vh; 
 }
-
-.first_bg{
-	
-}
-.first_bg h1{
-	width: 600px;
-	font-size: 30px;
-	margin: 0 auto;
-	text-align: center;
-	color: #fff;
-	font-weight: 700;
-}
-.brd{
-	width: 700px;
-	border: 2px solid #bdbdbd;
-	border-radius: 25px;
-	background-color: #bdbdbd;
-	opacity: .8;
-}
-
-/*step3*/
-
-.class{
-	width: 100%;
-	height: 400px;
-	background-color: #fafafa;
-}
-.class p{
+.first p{
 	width: 950px;
 	height: auto;
 	font-size: 60px;
 	text-align: left; 
 }
-.class h3{
+.first h3{
+	margin-top: 50px;
 	width: 950px;
+	margin-bottom: 50px;
 }
-
-.colortext{
-	color: #ffb300;
-	text-decoration: underline;
-}
-.class a:hover{
-	color: #ffb300;
-}
-
-/*step4*/
-
-.second{
-	background-image: url(images/bcimage.jpeg);
-	height: 90vh;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	padding-top: 25%;
-}
-
-/*step5*/
-
-.third{
-	background-color: #f5f3f0;
-	height: 145vh; 
-}
-.third p{
-	width: 950px;
-	height: 200px;
-	font-size: 60px;
-	text-align: left; 
-}
-.third h3{
-	margin-top: 100px;
-	width: 950px;
-}
-.third a:hover{
+.first a:hover{
 	color: #ffb300;
 }
 .img1{
@@ -156,101 +97,81 @@ body{
 	width: 300px;
 }
 
-/*step6*/
+/*step3*/
 
-.fourth{
-	height: 75vh;
-	background-color: #f5f3f0;
-	padding-top: 80px;
+.third p{
+	font-size: 60px;
+	margin-bottom: 50px;
 }
-.fourth a{
-	font-size: 18px;
-}
-.fourth a:hover{
-	color: #ffb300;
-}
-.fourth h2{
-	margin-top: 50px;
-	font-size: 56px;
-	width: 960px;
-	height: 170px;
-	text-align: left;
-}
-.fourth h4{
-	margin-top: 40px;
-	font-size: 23px;
-	width: 850px;
-	text-align: left;
-}
-.fourth h5{
-	margin-top: 50px;
-	font-size: 18px;
-	width: 900px;
-	text-align: left;
-}
-
-/*step6*/
-
-
-.fiveth{
-	height: 60vh;
-	background-color: #f5f3f0;
-	padding-top: 80px;
-}
-.fiveth a:hover{
-	color: #ffb300;
-}
-.fiveth h2{
-	margin-top: 40px;
-	width: 450px;
-	font-size: 64px;
-	font-weight: 600;	
-}
-.fiveth h4{
-	margin-top: 40px;
-	font-size: 21px;
-	width: 900px;
+.third h3{
+	margin-bottom: 30px;
+	font-size: 26px;
+	word-spacing: 5px;
 	font-weight: 500;
+	width: 950px;	
+	font-family: 'Lora', sans-serif;
 }
-.fiveth h5{
-	margin-top: 40px;
-	font-size: 21px;
-	width: 400px;
-	font-weight: 500;
+.third h4{
+	font-size: 27px;
 }
-
-/*step7*/
-
-
-.sixth{
-	height: 60vh;
-	background-color: #f5f3f0;
-	padding-top: 80px;
-}
-.sixth a:hover{
+.third a:hover{
 	color: #ffb300;
 }
-.sixth h2{
-	margin-top: 30px;
-	width: 450px;
-	font-size: 64px;
-	font-weight: 400;	
+
+/*step4*/
+
+.second1{
+	background-color: #f5f3f0;
+	height: 90vh; 
+	margin-top: 70px;
 }
-.sixth h4{
-	margin-top: 40px;
-	font-size: 20px;
-	width: 900px;
-	font-weight: 600;
+.second1 p{
+	width: 950px;
+	height: auto;
+	font-size: 60px;
+	text-align: left; 
 }
-.sixth h5{
-	margin-top: 40px;
+.second1 h3{
+	margin-top: 50px;
+	width: 950px;
+	margin-bottom: 50px;
+}
+.second1 a:hover{
+	color: #ffb300;
+}
+.img1{
+	width: 300px;
+	height: 450px;	
+}
+.img1:hover{
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
+}
+.img1 p{
 	font-size: 20px;
-	width: 900px;
-	font-weight: 600;
+	width: 300px;
+	height: 90px;
+	margin-top: 25px;
+}
+.img1 h5{
+	opacity: .6;
+	font-size: 16px;
+	font-weight: 500;
+	width: 300px;
 }
 
+/*step5*/
 
-/*step8*/
+.second{
+	background-image: url(images/bcimage.jpeg);
+	height: 100vh;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding-top: 25%;
+}
+
+/*step6*/
 
 .footer{
 	height: 90vh;
@@ -284,7 +205,8 @@ body{
 }
 
 
-/*step9*/
+
+/*step7*/
 
 .footer2{
 	height: 15vh;
@@ -293,7 +215,6 @@ body{
 .footer2 p{
 	color: #fff;
 }
-
 
 /*button*/
 

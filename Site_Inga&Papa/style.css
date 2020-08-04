@@ -10,6 +10,10 @@ body{
 	background-color: #000;
 }
 .menu{
+	width: 100%;
+	display: flex;
+}
+.menu2{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -17,19 +21,20 @@ body{
 	display: flex;
 	justify-content: center;
 }
-.menu li{
+.menu2 li{
 	list-style-type: none; 
 	margin-right: 30px;
 	margin-top: 3%;
 	font-size: 1.2rem;
 }
-.menu a{
+.menu2 a{
 	color: gray;
 	font-weight: 600;
 }
-.menu a:hover{
+.menu2 a:hover{
 	color: #ff616f;
 }
+
 .menu1{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -336,3 +341,57 @@ body{
 	border-top: 5px solid #fff;
 	border-left: 5px solid #fff;
 }
+header i{
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 90%;
+}
+
+@media screen and (max-width: 992px) {
+        .menu a{
+            display: none;
+            font-size: 15px;
+            padding-right: 0;
+            color: #000;
+            opacity: .7;
+            text-decoration: none;
+            font-weight: 400;
+
+        }
+        .menu{
+            width: 100%;
+            height: 80px;
+            flex-direction: column;
+            text-align: center;
+            background-color: #000;
+        }
+        .menu a:hover{
+            color: #9b0000;
+        }
+        .menu.active a{
+            display: block;
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            z-index: 9999;
+            color: #fff;
+        }
+        .class p{
+        	width: 100%;
+        	font-size: 45px;
+        	margin-top: 30px;
+        }
+        .class h3{
+        	width: 100%;
+        	font-size: 20px;
+        }
+        .third p{
+        	width: 100%;
+        	font-size: 45px;
+        }
+        .third h3{
+        	width: 100%;
+        	font-size: 20px;
+        }
+    }

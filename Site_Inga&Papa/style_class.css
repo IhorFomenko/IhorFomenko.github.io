@@ -51,3 +51,141 @@ body{
 	font-weight: 400;
 	text-decoration: underline;
 }
+
+/*step2*/
+
+.first{
+	background-color: #f5f3f0;
+	height: 100vh; 
+}
+.first p{
+	width: 950px;
+	height: auto;
+	font-size: 78px;
+	text-align: center; 
+}
+.first h3{
+	margin-top: 50px;
+	width: 950px;
+	margin-bottom: 50px;
+}
+
+
+/*step3*/
+
+.second{
+	background-image: url(images/bcimage.jpeg);
+	height: 90vh;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding-top: 25%;
+}
+
+/*step4*/
+
+.third{
+	background-color: #f5f3f0;
+	height: 185vh; 
+}
+.third p{
+	word-spacing: 20px;
+	width: 950px;
+	height: 60px;
+	font-size: 60px;
+	text-align: left; 
+	margin-bottom: 100px;
+}
+.third h3{
+	margin-top: 30px;
+	width: 950px;
+}
+.third a:hover{
+	color: #ffb300;
+}
+
+
+/*step5*/
+
+.footer{
+	height: 90vh;
+	background-color: #f5f3f0;
+	padding-top: 80px;
+}
+.footer p{
+	font-size: 22px;
+}
+.icons{
+	margin-top: 40px;
+	padding-right: 60px;
+}
+.icons a{
+	margin-left: 60px;
+	color: #000;
+	opacity: .7;
+}
+.brd1{
+	padding-top: 10px;
+	width: 75px;
+	height: 75px;
+	border: 1px solid grey;
+	border-radius: 50px;
+	background: #fff;
+}
+.icons i:hover{
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+
+/*step6*/
+
+.footer2{
+	height: 15vh;
+	background-color: #000;
+}
+.footer2 p{
+	color: #fff;
+}
+
+/*button*/
+
+.back-to-top{
+	position: fixed;
+	right: 40px;
+	bottom: 70px;
+	width: 80px;
+	height: 80px;
+	border-color: transparent;
+	border-radius: 50%;
+	background-color: #FED876;
+	display: none;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.back-to-top:hover,
+.back-to-top:focus{
+	filter: brightness(1.1);
+	outline: none;
+}
+.back-to-top::before,
+.back-to-top::after{
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.back-to-top::before{
+	width: 5px;
+	height: 30px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: #fff;
+}
+.back-to-top::after{
+	width: 25px;
+	height: 25px;
+	transform: translate(-50%, -50%) rotate(45deg);
+	border-top: 5px solid #fff;
+	border-left: 5px solid #fff;
+}

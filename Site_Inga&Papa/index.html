@@ -17,23 +17,29 @@
 	<header class="header">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-3 animated fadeInUp">
-					<a href="#"><img src="images/logo.png" alt="logo" width="220px" height="120px" style="padding-bottom: 40px"></a>
+				<div class="menu">
+					
+						<i class="fa fa-bars fa-2x d-xl-none d-lg-none d-md-block d-sm-block"></i>
+						<div class="col-lg-3 animated fadeInDown">
+							<a href="#"><img src="images/logo.png" alt="logo" width="220px" height="120px" style="padding-bottom: 40px"></a>
+						</div>
+						<div class="col-lg-6 animated fadeInDown">
+							<ul class="menu2 d-flex">
+								<li><a href="about_me.html" class="menu-link">О себе</a></li>
+								<li><a href="class.html" class="menu-link">Классы</a></li>
+								<li><a href="seminar.html" class="menu-link">Семинары</a></li>
+								<li><a href="Tour.html" class="menu-link">Туры</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-3 animated fadeInDown">
+							<ul class="menu1 d-flex">
+								<li><a href="">✨🖐️Осеопатия</a></li>
+								<li><a href="">❤️Поддержка</a></li>
+							</ul>
+						</div>
+					
 				</div>
-				<div class="col-lg-6 animated fadeInUp">
-					<ul class="menu d-flex">
-						<li><a href="about_me.html" class="menu-link">О себе</a></li>
-						<li><a href="class.html" class="menu-link">Классы</a></li>
-						<li><a href="seminar.html" class="menu-link">Семинары</a></li>
-						<li><a href="Tour.html" class="menu-link">Туры</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-3 animated fadeInUp">
-					<ul class="menu1 d-flex">
-						<li>✨🖐️<a href="">Осеопатия</a></li>
-						<li>❤️<a href="">Поддержка</a></li>
-					</ul>
-				</div>
+								
 			</div>
 		</div>
 	</header>
@@ -41,7 +47,7 @@
 	<section class="first">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-12 first_bg animated fadeInDown">
+				<div class="col-lg-12 first_bg animated fadeInUp">
 					<h1 class="brd">Папа и Инга — <br>ведущие преподаватели хатха-йоги <br>и остеопаты</h1>
 				</div>
 			</div>
@@ -207,6 +213,18 @@
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="script.js"></script>
+
+	<script type="text/javascript">
+		document.querySelector('.menu i').addEventListener('click', ()=>{
+			let menu = document.querySelector('.menu');
+			if (menu.classList.contains('active'))
+			{
+				menu.classList.remove('active');
+			} else {
+				menu.classList.add('active');
+			}
+		})
+	</script>
 
 	
 </body>

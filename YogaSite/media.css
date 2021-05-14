@@ -1,0 +1,75 @@
+@media (max-width: 1199px){
+	html{
+		font-size: 8px;
+	}
+	
+}
+
+
+@media (max-width: 991px){
+	html{
+		font-size: 7px;
+	}
+	.visible-lg{
+		display: none;
+	}
+	.m-menu-link{
+		display: block;
+	}
+	.get-started-btn{
+		margin: 0;
+	}
+	.footer-menu{
+		display: none;
+	}
+	.footer{
+		justify-content: center;
+	}
+	.social-links{
+		padding-top: 3rem;
+	}
+	.social-links a{
+		font-size: 5rem;
+	}
+	.legal{
+		flex-direction: column;
+		padding-bottom: 5rem;
+	}
+
+}
+@media (max-width: 819px){
+	html{
+		font-size: 7px;
+	}
+	.price-tags{
+		flex-direction: column;
+	}
+	.price-tag{
+		width: 70%;
+		margin: 2rem auto;
+	}
+	.table{
+		height: auto;
+	}
+	.table2{
+		padding-top: rem;
+		flex-direction: column;
+	}
+	.video{
+		width: 360px;
+		height: 300px;
+	}
+	.video_text{
+		margin: 0;
+	}
+	.form__input{
+		width: 70%;
+	}
+
+}
+@media (max-width: 600px){
+	html{
+		font-size: 7px;
+	}
+
+}

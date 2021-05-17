@@ -20,20 +20,22 @@ html{
 	align-items: center;
 	height: 100vh;
 	min-height: 600px;
-	background: url(image/bcimage.jpeg) no-repeat center;
+	/*background: url(image/bcimage.jpeg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
-	position: relative;
+	position: relative;*/
+	background: rgb(143,179,208);
+background: linear-gradient(180deg, rgba(143,179,208,1) 0%, rgba(39,83,117,1) 100%, rgba(22,73,112,1) 100%);
 }
 .main::before{
 	content: '';
 	position: absolute;
-	bottom: 0;
+	top: 0;
 	width: 100%;
 	height: 100px;
-	background: linear-gradient(to top, #eecfbb,transparent);
+	background: linear-gradient(to bottom, #275375,transparent);
 }
-.main-overlay{
+/*.main-overlay{
 	position: absolute;
 	left: 0; top: 0;
 	width: 100%;
@@ -41,13 +43,18 @@ html{
 	opacity: 0.7;
 	z-index: 0;
 	background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}*/
+.logo{
+	display: none;
 }
 .header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 90%;
+	width: 100%;
 	position: relative;
+	padding-left: 5%;
+	padding-right: 5%;
 	z-index: 1;
 }
 .menu{
@@ -62,7 +69,7 @@ html{
 	font-family: 'Lexend', sans-serif;
 	font-weight: 700;
 	font-size: 18px;
-	color: #000;
+	color: #fff;
 	text-decoration: none;
 }
 .menu-link:hover{
@@ -98,28 +105,34 @@ html{
 .main-text h1{
 	margin: 0.5rem;
 	font-size: 80px;
+	font-family: 'Goblin One', cursive;
 }
 .main-text span{
 	display: inline-block;
-	font-size: 1.5rem;
+	font-size: 3rem;
+	color: #fff;
+	font-family: 'Goblin One', cursive;
 }
-.main-text p{
-	font-size: 1.5rem;
+.main-text a{
+	width: auto;
+	text-decoration: none;
+	color: #fff;	
+	font-size: 1.8rem;
 }
 .main-text span::after{
 	content: '';
-	width: 20px;
-	height: 1px;
-	background-color: #000;
+	width: 25px;
+	height: 2px;
+	background-color: #fff;
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 10px;
 }
 .main-text span::before{
 	content: '';
-	width: 20px;
-	height: 1px;
-	background-color: #000;
+	width: 25px;
+	height: 2px;
+	background-color: #fff;
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 10px;
@@ -127,7 +140,7 @@ html{
 .scroll-down{
 	height: 60px;
 	width: 45px;
-	border: 2px solid #000;
+	border: 2px solid #fff;
 	position: relative;
 	bottom: 20px;
 	border-radius: 50px;
@@ -139,7 +152,7 @@ html{
 	position: absolute;
 	top: 20%;
 	left: 50%;
-	border: 2px solid #000;
+	border: 2px solid #fff;
 	height: 20px;
 	width: 20px;
 	transform: translate(-50%, -80%) rotate(45deg);
@@ -169,26 +182,92 @@ html{
 }
 
 
+/* screen_1*/
+
+.about{
+	display: flex;
+	height: 50vh;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #275375;
+	padding-top: 5rem;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+.about p{
+	line-height: 3rem;
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	font-size: 2rem;
+	font-family: 'Comfortaa', cursive;
+	opacity: 0.8;
+}
+.block1{
+	content: '';
+	width: 110px;
+	height: 3px;
+	display: flex;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	background-color: #fff;
+}
+
 /* screen_2 */
 
 .table{
 	height: 100vh;
 	min-height: 600px;
-	background: linear-gradient(to bottom, #EECFBA, #C5DDE8);
+	/*background: linear-gradient(to bottom, #EECFBA, #C5DDE8);*/
 	padding: 6rem;
-}
+	background: rgb(143,179,208);
+background: linear-gradient(0deg, rgba(143,179,208,1) 0%, rgba(39,83,117,1) 100%, rgba(22,73,112,1) 100%);
+	}
 .table-header{
 	text-align: center;
 }
 .table-header span{
 	text-transform: uppercase;
 	font-size: 1.5rem;
+	color: #fff;
+}  
+.table h2{
+	color: #fff;
 }
+.table a{
+	font-size: 1.7rem;
+	color: #fff;
+	font-weight: 700;
+}
+.more p{
+	width: 100%;
+}
+.more{
+	display: flex;
+	margin: 0 auto;
+	margin-bottom: 3rem;
+	justify-content: center;
+}
+.content{
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #fff;
+	border-radius: 25px;	
+}
+
+
+
+
+
 .table-header span::after{
 	content: '';
 	width: 20px;
 	height: 1px;
-	background-color: #000;
+	background-color: #fff;
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 10px;
@@ -197,15 +276,15 @@ html{
 	content: '';
 	width: 20px;
 	height: 1px;
-	background-color: #000;
+	background-color: #fff;
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 10px;
 }
 .table-header p{
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	display: inline-block;
-	width: 40rem;
+	width: 60%;
 	line-height: 1.4;
 }
 .table h2{
@@ -233,7 +312,8 @@ html{
 .price-tag:hover{
 	cursor: pointer;
 	box-shadow: 0px 0px 90px 10.12px rgba(204, 204, 223, 0.71);
-	transition: 0.5;
+	transition: 0.8;
+	transform: scale(1.05);
 }
 .price-tag span{
 	font-size: 1.4rem;
@@ -269,6 +349,7 @@ html{
 /* screen_3 */
 
 .table2{
+	padding-top: 5rem;
 	height: 60vh;
 	min-height: 600px;
 	background: linear-gradient(to top, #EECFBA, #C5DDE8);
@@ -278,24 +359,28 @@ html{
 	justify-content: space-around;
 	align-items: center;
 	display: flex;
-}
+	background: rgb(143,179,208);
+background: linear-gradient(180deg, rgba(143,179,208,1) 0%, rgba(39,83,117,1) 100%, rgba(22,73,112,1) 100%);
+	}
 
 .video{
 	width: 560px;
 	height: 315px;
 	box-shadow: 0 0 100px rgba(0,0,0,0.5);
 	display: flex;
+	border-radius: 25px;
 }
 .table2 button{
 	margin-left: 150px;
 }
 .video_text{
 	margin-left: 5rem;
-	font-family: 'Lexend', sans-serif;
-	font-size: 1.8rem;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.6rem;
+	color: #fff;
 	display: inline-block;
 	width: 50rem;
-	line-height: 1.4;
+	line-height: 1.3;
 }
 .table2 a {
 	color: #fff;

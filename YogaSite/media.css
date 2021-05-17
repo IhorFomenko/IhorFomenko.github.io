@@ -10,6 +10,12 @@
 	html{
 		font-size: 7px;
 	}
+	.logo{
+		display: block;
+	}
+	.logo1{
+		display: none;
+	}
 	.visible-lg{
 		display: none;
 	}

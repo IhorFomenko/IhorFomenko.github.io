@@ -41,6 +41,9 @@
 		flex-direction: column;
 		padding-bottom: 5rem;
 	}
+	.main-text a{
+		display: block;
+	}
 
 }
 @media (max-width: 819px){

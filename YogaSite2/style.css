@@ -114,6 +114,7 @@ background: linear-gradient(180deg, rgba(143,179,208,1) 0%, rgba(39,83,117,1) 10
 	font-family: 'Goblin One', cursive;
 }
 .main-text a{
+	display: none;
 	width: auto;
 	text-decoration: none;
 	color: #fff;	
@@ -180,7 +181,13 @@ background: linear-gradient(180deg, rgba(143,179,208,1) 0%, rgba(39,83,117,1) 10
 		top: 90%;
 	}
 }
-
+.logo1 a{
+	padding-left: 11rem;
+	text-decoration: none;
+	color: #fff;
+	display: flex;	
+	font-size: 1.8rem;
+}
 
 /* screen_1*/
 
@@ -258,6 +265,30 @@ background: linear-gradient(0deg, rgba(143,179,208,1) 0%, rgba(39,83,117,1) 100%
 	background-color: #fff;
 	border-radius: 25px;	
 }
+.box1{
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #fff;
+	border-radius: 25px;
+}
+.box2{
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+	
+	background-color: #fff;
+	border-radius: 25px;
+}
+.box3{
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #fff;
+	border-radius: 25px;
+}
 
 
 
@@ -331,21 +362,9 @@ background: linear-gradient(0deg, rgba(143,179,208,1) 0%, rgba(39,83,117,1) 100%
 	vertical-align: super;
 	margin-right: 0.5rem;
 } 
-.price-btn{
-	background-color: #fff;
-	border: #9fa4af 1px solid;
-	text-transform: uppercase;
-	font-size: 1.5rem;
-	font-weight: 300;
-	padding: 1rem 4rem;
-	border-radius: 100px;
+.price-tag a{
+	color: #000;
 }
-.price-btn:hover{
-	background-color: #fbe9e7;
-	border: 1px solid #fff;
-	cursor: pointer;
-}
-
 /* screen_3 */
 
 .table2{
@@ -410,9 +429,8 @@ background: linear-gradient(180deg, rgba(143,179,208,1) 0%, rgba(39,83,117,1) 10
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	background-color: #ffecb3;
-	background-image: url(image/bgi.jpg);
-	background-attachment: fixed;
+	background: rgb(143,179,208);
+	background: linear-gradient(0deg, rgba(143,179,208,1) 0%, rgba(39,83,117,1) 100%, rgba(22,73,112,1) 100%);
 
 }
 .title{
@@ -460,7 +478,7 @@ background: linear-gradient(180deg, rgba(143,179,208,1) 0%, rgba(39,83,117,1) 10
 .footer-wrap{
 	display: flex;
 	justify-content: center;
-	background-color: #eecfbb;
+	background-color: #8fb3d0;
 }
 .footer{
 	width: 90%;
@@ -501,11 +519,10 @@ background: linear-gradient(180deg, rgba(143,179,208,1) 0%, rgba(39,83,117,1) 10
     color: #fff;
 }
 .down{
-	background-color: #eecfbb;
+	background-color: #8fb3d0;
 }
 .line{
 	display: block;
-	width: 90%;
 	height: 1px;
 	background-color: #000;
 	margin: 0 auto;
@@ -516,7 +533,7 @@ background: linear-gradient(180deg, rgba(143,179,208,1) 0%, rgba(39,83,117,1) 10
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #eecfbb;
+	background-color: #8fb3d0;
 }
 .copy{
 	font-size: 1.4rem;
